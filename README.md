@@ -1,0 +1,6 @@
+## Description
+
+The PHP Type Juggling Vulnerability CTF challenge is designed to test the understanding of a common vulnerability in PHP applications. Type juggling is a technique used by attackers to manipulate PHP variables by converting them into different types or values. This can lead to unexpected behaviour, which can be exploited to gain unauthorized access to sensitive information or execute malicious code.
+In this challenge, a PHP code snippet that contains a vulnerability that allows an attacker to bypass authentication and gain access to restricted parts of the application will be displayed initially. The code may use weak comparison operators or rely on implicit type conversions to compare user input with hardcoded values.
+To solve the challenge, the vulnerability needs to be identified and demonstrated how it can be exploited to bypass authentication. This may involve manipulating input data to coerce the comparison to evaluate to true or using a specific value to trigger a specific behaviour.
+The challenge is suitable for intermediate-level PHP developers or security enthusiasts who want to improve their skills in identifying and exploiting common vulnerabilities in web applications. It requires a good understanding of PHP syntax, data types, and comparison operators, as well as a basic knowledge of web application security concepts.
